@@ -15,7 +15,7 @@ RUN apt-get -y update \
  	&& mkdir /root/tmp \
  	&& cd /root/tmp \
  	&& wget https://redirector.gvt1.com/edgedl/go/go1.14.4.linux-amd64.tar.gz \
- 	&& tar -C /usr/local -xzf go1.12.5.linux-amd64.tar.gz \
+ 	&& tar -C /usr/local -xzf go1.14.4.linux-amd64.tar.gz \
  	&& cd /root \
  	&& mkdir gohome \
  	&& bash \
