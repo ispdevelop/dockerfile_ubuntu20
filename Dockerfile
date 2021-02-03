@@ -3,7 +3,6 @@ FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 # home配下にコピー
-COPY .bashrc /root/
 COPY .netrc /root/
 COPY .zshrc /root/
 
